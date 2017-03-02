@@ -1,0 +1,50 @@
+#ruleDiv {
+    border-style: groove
+}
+
+.table1 {
+    width: auto;
+    position: absolute
+}
+
+.row {
+    border: 1px solid #666666;
+    width: 60px;
+    height: 75px;
+    text-align: center;
+}
+.staticCell{
+    border: 1px solid #666666;
+    width: 60px;
+    height: 75px;
+    text-align: center;
+    background-color: red;
+}
+.emptyCell{
+    border: 1px solid #666666;
+    width: 60px;
+    height: 75px;
+    text-align: center;
+    background-color: white;
+}
+.movingCell{
+    border: 1px solid #666666;
+    width: 60px;
+    height: 75px;
+    text-align: center;
+    background-color: green;
+}
+.selectedMovingCell{
+    border: 3px solid yellow;
+    width: 57px;
+    height: 72px;
+    text-align: center;
+    background-color: green;
+}
+.selectedEmptyCell{
+    border: 3px solid yellow;
+    width: 57px;
+    height: 72px;
+    text-align: center;
+    background-color: white;
+}

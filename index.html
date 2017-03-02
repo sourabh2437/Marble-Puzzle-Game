@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title> Marble Puzzle Game
+    </title>
+    <link rel="stylesheet" type="text/css" href="./assests/css/marble_puzzle.css">
+    <link rel="stylesheet" type="text/css" href="./assests/css/sweetalert.css">
+</head>
+
+<body>
+    <h1 id="h1"><center>Welcome to MARBLE PUZZLE GAME </center></h1>
+    <div id="ruleDiv">
+        <p id="para1">The Rules for The Marble Puzzle are as follows -
+            <ol>
+                <li>The player makes successive capturing moves, removing a single piece each turn until is it impossible to make any more capturing moves. </li>
+                <li>Each turn, the player captures a piece by jumping over that piece orthogonally (not diagonally) from one adjacent point to the vacant adjacent point on the other side.</li>
+                <li>Therefore, the first turn can be made only by jumping a piece into the middle hole from one of 4 possible points.</li>
+        </p>
+    </div>
+    <button type="button" id="btn1" class="button" onclick="startNewGame()">Start New Game!</button>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="./assests/js/puzzle_logic.js" type="text/javascript"></script>
+    <script src="./assests/js/sweetalert.min.js" type="text/javascript"></script>
+</body>
+
+</html>
