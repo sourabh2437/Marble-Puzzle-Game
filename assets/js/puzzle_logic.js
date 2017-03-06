@@ -6,17 +6,18 @@ var marbleArr = [];
 //window.onload = function () {
 //
 //    },
+
 startNewGame = function () {
-        var ruleDiv = document.getElementById("ruleDiv");
-        var btn = document.getElementById("btn1");
-        ruleDiv.style.display = 'none';
-        btn.style.display = 'none';
+//        var ruleDiv = document.getElementById("ruleDiv");
+//        var btn = document.getElementById("btn1");
+//        ruleDiv.style.display = 'none';
+//        btn.style.display = 'none';
         createScoreBoard();
         createPuzzle();
 
     },
     createScoreBoard = function () {
-        var body = document.getElementsByTagName("body")[0];
+        var body = document.getElementById("gameGrid");
         var scoreCard1 = document.createElement("p");
         var scoreCard2 = document.createElement("p");
         body.appendChild(scoreCard1);
@@ -28,6 +29,7 @@ startNewGame = function () {
     },
 
     createPuzzle = function () {
+        var gameGrid = document.getElementById("gameGrid");
         var grid = document.createElement("table");
         grid.className = "table1";
         var gridBody = document.createElement("tbody");
@@ -57,7 +59,7 @@ startNewGame = function () {
             }
             gridBody.appendChild(row);
             grid.appendChild(gridBody);
-            body.appendChild(grid);
+            gameGrid.appendChild(grid);
         }
     },
     onSwap = function () {
@@ -262,4 +264,5 @@ startNewGame = function () {
         if (index === -1) {
             marbleArr.push(id);
         }
-    }
+    },
+    window.startNewGame();

@@ -2,9 +2,38 @@
     border-style: groove
 }
 
+.title{
+    text-align: center;
+}
+
+
+#gameScreen {
+    display: inline-block;
+}
+
+#part1{
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+#part2{
+    float: left;
+    width: 45%;
+     margin-left: 5%;
+}
+
 .table1 {
     width: auto;
     position: absolute
+}
+
+#restartBtn{
+
+}
+
+#undoBtn{
+
 }
 
 .row {
